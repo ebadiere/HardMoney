@@ -1,0 +1,44 @@
+package org.badiere.qa.experimental;
+
+import static org.junit.Assert.*;
+
+import java.net.MalformedURLException;
+
+import org.badiere.experimental.HardMoney;
+import org.junit.Test;
+
+public class HardMoneyTest {
+
+	@Test
+	public void testGetGoldSpot() throws MalformedURLException {
+
+		HardMoney hm = new HardMoney();
+		String spot = hm.getGoldSpot();
+		
+		boolean numericFloat = false;
+		
+		float spotFloat = 0;
+		
+		try{
+			
+			spotFloat = Float.parseFloat(spot);
+			numericFloat = true;
+			
+		}catch (Exception e){
+			
+		    numericFloat = false;	
+			
+		}
+		
+		assertEquals(numericFloat, true);
+		
+		System.out.println("DEBUG: spot: " + spot);
+		
+		// test decimal place
+		
+		assertEquals(".", spot.substring(spot.length() - 3, spot.length()));
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package org.badiere.experimental;
+
+import java.net.URLConnection;
+
+public class HardMoney {
+
+	private URLConnection conn;
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

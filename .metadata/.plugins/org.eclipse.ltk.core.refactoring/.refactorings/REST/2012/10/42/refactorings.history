@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;HardMoneyTest.java&apos; to &apos;REST/src/org.badiere.qa.experimental&apos;&#x0A;- Original project: &apos;REST&apos;&#x0A;- Destination element: &apos;REST/src/org.badiere.qa.experimental&apos;&#x0A;- Original element: &apos;HardMoneyTest.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;org.badiere.qa.experimental" element1="/src&lt;{HardMoneyTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1350705604086" units="1" version="1.0"/>
+</session>

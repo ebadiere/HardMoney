@@ -1,0 +1,19 @@
+package org.badiere.qa.experimental;
+
+import static org.junit.Assert.*;
+
+import org.badiere.experimental.HardMoney;
+import org.junit.Test;
+
+public class HardMoneyTest {
+	
+	
+
+	@Test
+	public void testGetGoldSpot() {
+//		fail("Not yet implemented");
+		HardMoney hm = new HardMoney();
+		
+	}
+
+}

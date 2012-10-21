@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.net.URLConnection"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="org.codehaus.jackson.JsonFactory"/>
+<fullyQualifiedTypeName name="org.codehaus.jackson.JsonParser"/>
+<fullyQualifiedTypeName name="org.codehaus.jackson.JsonToken"/>
+<fullyQualifiedTypeName name="org.badiere.experimental.HardMoney"/>
+<fullyQualifiedTypeName name="org.codehaus.jackson.JsonNode"/>
+</qualifiedTypeNameHistroy>
